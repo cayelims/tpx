@@ -1,0 +1,28 @@
+{
+    "name": "argentum",
+    "version": "0.0.1",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon src/app.js",
+        "start": "npm install && node src/app.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "express-handlebars": "^4.0.6",
+        "express-router": "^0.0.1",
+        "md5": "^2.3.0",
+        "mysql2": "^2.1.0",
+        "nodemon": "^2.0.6",
+        "sequelize": "^6.3.4"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.7"
+    }
+}
